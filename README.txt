@@ -1,39 +1,39 @@
-#= JQuery hover caption plugin.
-#
-# Here’s a simple jQuery plugin that adds both a caption and a gray-out effect when 
-# hovering over an image.
-# 
-# You can see a <a href="http://coryschires.com/jquery-hover-caption-plugin/">working demonstration here</a>.
-# 
-#== How to make it work.
-# 
-# (1) Drop these scripts in your header:
-# {<script src="js/jquery-1.3.2.min.js" type="text/javascript" charset="utf-8"></script>}
-# {<script src="js/jquery.hover_caption.js" type="text/javascript" charset="utf-8"></script>}
-# 
-# (2) Call the plugin function on your images: 
-# $(document).ready(function() {
-#     $('img').hover_caption();
-# });
-#
-# (3) Add this tiny bit of CSS somewhere:
-# .hover_caption {
-#    background-image: url(hover_caption_bg.png);
-#    /* NOTE: if you're img elements have paddings
-#    or margins you'll need to match them here
-#    to get things lined up properly. */
-# }
-# 
-# And here’s some configuration options
-# $('img').hover_caption({
-#    caption_font_size: '18px',
-#    caption_color: 'white',
-#    caption_bold: true,
-#    caption_default: "Click for screenshots."
-# });
-# 
-#== A few gotchas.
-#* Be sure the path to hover_caption_bg.png is correct.
-#* Don’t forget to add hover_caption_bg.png to your project.
-#* Be sure the path to hover_caption.js is correct.
-#* Make sure you’ve referenced jQuery first in your header.
+= JQuery hover caption plugin.
+
+Here’s a simple jQuery plugin that adds both a caption and a gray-out effect when 
+hovering over an image.
+
+You can see a <a href="http://coryschires.com/jquery-hover-caption-plugin/">working demonstration here</a>.
+
+== How to make it work.
+
+(1) Drop these scripts in your header:
+{<script src="js/jquery-1.3.2.min.js" type="text/javascript" charset="utf-8"></script>}
+{<script src="js/jquery.hover_caption.js" type="text/javascript" charset="utf-8"></script>}
+
+(2) Call the plugin function on your images: 
+$(document).ready(function() {
+    $('img').hover_caption();
+});
+
+(3) Add this tiny bit of CSS somewhere:
+.hover_caption {
+   background-image: url(hover_caption_bg.png);
+   /* NOTE: if you're img elements have paddings
+   or margins you'll need to match them here
+   to get things lined up properly. */
+}
+
+And here’s some configuration options
+$('img').hover_caption({
+   caption_font_size: '18px',
+   caption_color: 'white',
+   caption_bold: true,
+   caption_default: "Click for screenshots."
+});
+
+== A few gotchas.
+* Be sure the path to hover_caption_bg.png is correct.
+* Don’t forget to add hover_caption_bg.png to your project.
+* Be sure the path to hover_caption.js is correct.
+* Make sure you’ve referenced jQuery first in your header.
