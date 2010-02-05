@@ -3,8 +3,6 @@
 # Here’s a simple jQuery plugin that adds both a caption and a gray-out effect when 
 # hovering over an image.
 # 
-# You can see a <a href="http://coryschires.com/jquery-hover-caption-plugin/">working demonstration here</a>.
-# 
 #== How to make it work.
 # 
 # (1) Drop these scripts in your header:
