@@ -22,6 +22,10 @@ Add this tiny bit of CSS somewhere:
       to get things lined up properly. */
    }
 
+== Smart captions.
+If your image has a title attribute, the plugin will use that as the caption. Otherwise it will default to {Click for screenshots}. You can change the default if you like, of course.
+
+
 == Configuration options.
 
 And here’s some configuration options:
