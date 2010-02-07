@@ -23,7 +23,7 @@ Add this tiny bit of CSS somewhere:
    }
 
 == Smart captions.
-If your image has a title attribute, the plugin will use that as the caption. Otherwise it will default to <pre>Click for screenshots</pre>. You can change the default if you like, of course.
+If your image has a title attribute, the plugin will use that as the caption. Otherwise it will default to "Click for screenshots". You can change the default if you like, of course.
 
 
 == Configuration options.
