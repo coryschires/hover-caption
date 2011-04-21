@@ -1,0 +1,50 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN"
+   "http://www.w3.org/TR/html4/strict.dtd">
+
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Hover Caption</title>
+
+<!-- javascripts -->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+<script src="js/jquery.hover_caption.js" type="text/javascript" charset="utf-8"></script>
+
+<script type="text/javascript" charset="utf-8">
+	$(document).ready(function() {
+		$('img').hover_caption();
+	});
+</script>
+
+
+<style type="text/css" media="screen">
+	body { font-family: Helvetica, Arial, sans-serif; }
+	#page_wrap {  width: 960px; margin: auto; }
+	#documentation { text-align: right; display: block; }
+	
+	.hover_caption { 
+		background-image: url(hover_caption_bg.png); 
+		/* NOTE: if you're img elements have paddings or 
+		or margins you'll need to match them here to 
+		get things lined up properly. */
+	}
+</style>
+</head>
+<body>
+	<div id="page_wrap">
+	    <a id="documentation" href="https://github.com/coryschires/hover-caption">Back to Documentation</a>
+	    <h1>jQuery Hover Caption Plugin</h1>
+	    
+		<img title="I am the title attribue" src="http://coryschires-blog-post-images.s3.amazonaws.com/hover_caption/churchill_1945.jpg" width="287" height="380" alt="Churchill 1945">
+		<br /><br />
+		<img src="http://coryschires-blog-post-images.s3.amazonaws.com/hover_caption/flapper_1922.jpg" width="160" height="200" alt="Flapper 1922">
+		<br /><br />
+		<img src="http://coryschires-blog-post-images.s3.amazonaws.com/hover_caption/old_lady_smoking_1937.jpg" width="220" height="294" alt="Old Lady Smoking 1937">	
+	</div><!--page_wrap-->
+
+<br /><br /><br />
+
+<div class="test"></div>
+
+</body>
+</html>
