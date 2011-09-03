@@ -6,8 +6,8 @@ hovering over an image. View the {live demo}[http://coryschires.github.com/hover
 == How to make it work.
 
 Drop these scripts in your header:
-   <script src="js/jquery-1.4.1.min.js" type="text/javascript" charset="utf-8"></script>
-   <script src="js/jquery.hover_caption.js" type="text/javascript" charset="utf-8"></script>
+   <script src="jquery-1.6.3.min.js" type="text/javascript" charset="utf-8"></script>
+   <script src="jquery.hover_caption.js" type="text/javascript" charset="utf-8"></script>
 
 Call the plugin function on your images:
    $(document).ready(function() {
@@ -16,10 +16,14 @@ Call the plugin function on your images:
 
 Add this tiny bit of CSS somewhere:
    .hover_caption {
-      background-image: url(hover_caption_bg.png);
-      /* NOTE: if you're img elements have paddings
-      or margins you'll need to match them here
-      to get things lined up properly. */
+      /* If you can count of CSS3 support: */
+      background-color: rgba(0, 0, 0, 0.7);
+
+      /* Or use a transparent image if you need to support bad browsers: */
+      /* background-image: url(hover_caption_bg.png); */
+
+      /* NOTE: If you're img elements have paddings or margins you'll need to
+      match them here to get things lined up properly. */
    }
 
 == Configuration options.
