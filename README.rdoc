@@ -1,7 +1,7 @@
 = JQuery hover caption plugin.
 
-Here’s a simple jQuery plugin that adds both a caption and a gray-out effect when 
-hovering over an image.
+Here’s a simple jQuery plugin that adds both a caption and a gray-out effect when
+hovering over an image. View the {live demo}[http://coryschires.github.com/hover-caption/].
 
 == How to make it work.
 
@@ -9,7 +9,7 @@ Drop these scripts in your header:
    <script src="js/jquery-1.4.1.min.js" type="text/javascript" charset="utf-8"></script>
    <script src="js/jquery.hover_caption.js" type="text/javascript" charset="utf-8"></script>
 
-Call the plugin function on your images: 
+Call the plugin function on your images:
    $(document).ready(function() {
       $('img').hover_caption();
    });
